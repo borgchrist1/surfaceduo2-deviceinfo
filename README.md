@@ -1,0 +1,1 @@
+# surfaceduo2-deviceinfo
