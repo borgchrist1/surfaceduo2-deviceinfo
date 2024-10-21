@@ -1,1 +1,1 @@
-# surfaceduo2-deviceinfo
+# microsoft-surfaceduo2

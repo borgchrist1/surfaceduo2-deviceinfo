@@ -1,0 +1,26 @@
+deviceinfo_name="Surface Duo 2"
+deviceinfo_manufacturer="Microsoft"
+deviceinfo_codename="surfaceduo2"
+deviceinfo_arch="aarch64"
+
+deviceinfo_kernel_source="https://github.com/borgchrist1/surfaceduo2_kernel.git"
+deviceinfo_kernel_source_branch="main"
+deviceinfo_kernel_defconfig="vendor/lahaina_GKI.config halium.config"
+deviceinfo_kernel_cmdline="console=ttyMSM0,115200n8 androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 androidboot.usbcontroller=a600000.dwc3 swiotlb=0 loop.max_part=7 cgroup.memory=nokmem,nosocket pcie_ports=compat iptable_raw.raw_before_defrag=1 ip6table_raw.raw_before_defrag=1 androidboot.hardware=surfaceduo2 androidboot.hardware.platform=qcom buildvariant=user console=tty0"
+deviceinfo_kernel_clang_compile="true"
+deviceinfo_kernel_llvm_compile="true"
+deviceinfo_kernel_apply_overlay="false"
+
+deviceinfo_flash_offset_base="0x00000000"
+deviceinfo_flash_offset_kernel="0x00008000"
+deviceinfo_flash_offset_ramdisk="0x01000000"
+
+deviceinfo_generate_bootimg="true"
+deviceinfo_halium_version="11"
+
+deviceinfo_bootimg_os_version="11"
+deviceinfo_bootimg_os_patch_level="2024-10"
+deviceinfo_bootimg_header_version="3"
+deviceinfo_bootimg_qcdt="false"
+
+#deviceinfo_dtbo="samsung/q2/q2q/q2q_eur_openx_w00_r08.dtbo"
